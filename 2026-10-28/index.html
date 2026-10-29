@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>오늘의 메모 · 10월 28일(수)</title>
+<meta name="description" content="TODAY IMPACT 게시물에 댓글 주신 분께 드리는 오늘의 자료">
+<meta property="og:title" content="오늘의 메모 — 10월 28일(수)">
+<meta property="og:description" content="기사 7개 읽고 정리한 할인 날짜와 사용처 / 금감원 안내까지 읽고 정리한 내 정보 지키는 법 3가지 / 질병청 자료 읽고 정리한 독감 무료접종 총정리">
+<meta property="og:image" content="31.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css">
+<style>
+  /*
+    DM 자료 페이지 — 인스타 속지 "오늘의 메모"를 그대로 이어 간다.
+    모눈 노트 위 검정 볼펜 글, 과감한 요소는 머리의 빨간 펜 동그라미 날짜 하나.
+    인스타 안 브라우저(폰)에서 열리므로 한 줄 폭 34자 안팎, 왼쪽 정렬.
+  */
+  :root {
+    --paper: #F7F8F6;
+    --grid: #E2E7EC;
+    --ink: #1D2228;
+    --ink-soft: #5A6170;
+    --red: #D23B2A;
+    --line: #CDD4DB;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background-color: var(--paper);
+    background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 28px 28px;
+    color: var(--ink);
+    font-family: "Pretendard Variable", Pretendard, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    font-size: 17px; line-height: 1.75; word-break: keep-all; overflow-wrap: anywhere;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 560px; margin: 0 auto; padding: 0 20px 72px; }
+  .pen { font-family: "Nanum Pen Script", cursive; font-weight: 400; }
+  a { color: inherit; text-decoration-color: var(--line); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; border-radius: 2px; }
+
+  /* 머리 — 손글씨 날짜에 빨간 펜 동그라미 */
+  header { padding: 28px 0 8px; }
+  .mark { font-size: 13px; font-weight: 800; letter-spacing: .02em; color: var(--ink-soft); }
+  .hero { margin-top: 26px; font-size: 64px; line-height: 1; }
+  .day { position: relative; display: inline-block; padding: 0 6px; margin: 0 12px 0 4px; }
+  .day svg { position: absolute; left: -12px; top: -12px; width: calc(100% + 22px); height: calc(100% + 22px); overflow: visible; }
+  .day path { fill: none; stroke: var(--red); stroke-width: 3.5px; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+  .lead { margin-top: 22px; font-size: 16px; line-height: 1.7; color: var(--ink-soft); }
+
+  /* 오늘 자료 바로가기 */
+  .toc { margin-top: 24px; border-top: 1.5px solid var(--ink); }
+  .toc a { display: flex; gap: 12px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--line); text-decoration: none; font-weight: 700; font-size: 16px; line-height: 1.45; }
+  .toc img { flex: none; width: 44px; height: 55px; object-fit: cover; border-radius: 3px; }
+
+  /* 게시물별 자료 */
+  article { margin-top: 56px; scroll-margin-top: 16px; }
+  .cover { display: block; width: 100%; aspect-ratio: 4 / 5; max-height: 420px; object-fit: cover; border-radius: 4px; }
+  .cat { margin-top: 18px; font-size: 14px; font-weight: 700; color: var(--ink-soft); }
+  h2 { margin-top: 2px; font-size: 26px; line-height: 1.35; font-weight: 800; letter-spacing: -.02em; text-wrap: balance; }
+  .body { margin-top: 18px; }
+  .body p + p { margin-top: 14px; }
+  .body ol { list-style: none; margin-top: 18px; counter-reset: n; }
+  .body li { counter-increment: n; position: relative; padding: 16px 0 16px 46px; border-top: 1px solid var(--line); }
+  .body li::before { content: counter(n); position: absolute; left: 4px; top: 6px; font-family: "Nanum Pen Script", cursive; font-size: 44px; line-height: 1; color: var(--red); }
+  .body li b { display: block; font-size: 18px; }
+  .todo { margin-top: 22px; font-size: 32px; line-height: 1.15; transform: rotate(-1.5deg); transform-origin: left; }
+  .src { margin-top: 20px; font-size: 14px; line-height: 1.7; color: var(--ink-soft); }
+  .src a { display: inline-block; margin-right: 10px; }
+
+  footer { margin-top: 72px; padding-top: 22px; border-top: 1.5px solid var(--ink); font-size: 15px; }
+  .follow { font-size: 30px; line-height: 1.2; }
+  .follow a { text-decoration-color: var(--red); text-decoration-thickness: 2px; }
+  .past { margin-top: 26px; }
+  .past h3 { font-size: 14px; font-weight: 700; color: var(--ink-soft); }
+  .past ul { list-style: none; margin-top: 6px; }
+  .past li a { display: block; padding: 7px 0; }
+  .note { margin-top: 28px; font-size: 13px; line-height: 1.7; color: var(--ink-soft); }
+
+  @media (min-width: 640px) { .hero { font-size: 80px; } h2 { font-size: 30px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="mark">TODAY IMPACT</div>
+    <h1 class="hero pen">10월 <span class="day">28일<svg viewBox="0 0 100 60" preserveAspectRatio="none" aria-hidden="true"><path d="M18 9 C40 1 78 2 92 16 C101 27 96 47 78 54 C58 61 22 60 9 47 C0 37 3 18 22 9 C34 4 48 3 60 4"/></svg></span>의 메모</h1>
+    <p class="lead">댓글 남겨 주셔서 고마워요. 게시물에 다 못 담은 내용을 여기 정리해 뒀어요.</p>
+    
+    <nav class="toc" aria-label="오늘 자료">
+      <a href="#p31"><img src="31.jpg" alt="">기사 7개 읽고 정리한 할인 날짜와 사용처</a><a href="#p3"><img src="03.jpg" alt="">금감원 안내까지 읽고 정리한 내 정보 지키는 법 3가지</a><a href="#p10"><img src="10.jpg" alt="">질병청 자료 읽고 정리한 독감 무료접종 총정리</a>
+    </nav>
+    
+  </header>
+
+  
+  <article id="p31">
+    <img class="cover" src="31.jpg" alt="11월 초까지 챙길 할인·환급 5가지 표지">
+    <div class="cat">11월 초까지 챙길 할인·환급 5가지</div>
+    <h2>기사 7개 읽고 정리한 할인 날짜와 사용처</h2>
+    <div class="body"><p>안녕하세요, TODAY IMPACT예요. 11월 초까지 챙길 할인을 날짜순으로 정리했어요.</p><ol><li><b>상품권은 날짜가 전부</b>지역사랑상품권은 코리아 그랜드 페스티벌(10월 29일~11월 15일) 동안 할인율이 5%p 올라 수도권 13%, 비수도권 15%, 인구감소지역 17%예요. 지자체마다 적용 기간이 달라 사는 곳 상품권 앱 공지를 먼저 보세요. 디지털 온누리상품권은 11월 2~6일에만 10% 할인이에요.</li><li><b>장보기는 행사 매장에서</b>김장 재료·수산물은 11월 29일까지 &#x27;대한민국 수산대전&#x27; 참여 매장에서 구매액 20%(1인 최대 1만원)를 지원받아요. 참여 마트·온라인몰 56곳은 fsale.kr에서 확인할 수 있어요. 한우는 11월 8일까지 최대 50% 할인이에요.</li><li><b>잠자는 보험금 조회</b>&#x27;내보험찾아줌&#x27;에서 내 이름으로 된 보험과 숨은보험금을 한 번에 조회하고 청구할 수 있어요. 캠페인은 11월 30일까지예요. 이름이 비슷한 사칭 사이트는 조심하세요.</li></ol><p>출처: 전자신문 <a href="https://www.etnews.com/20261027000245" rel="noopener" target="_blank">https://www.etnews.com/20261027000245</a></p><p>머니투데이 <a href="https://www.mt.co.kr/economy/2026/10/27/2026102711020734856" rel="noopener" target="_blank">https://www.mt.co.kr/economy/2026/10/27/2026102711020734856</a></p><p>도움이 됐다면 팔로우해 두세요.</p></div>
+    <div class="todo pen">날짜부터<br>달력에 적고<br>하나씩 챙기세요</div>
+    <div class="src">출처 <a href="https://www.etoday.co.kr/news/view/2640491" rel="noopener" target="_blank">이투데이 (2026-10-27)</a><a href="https://www.etnews.com/20261027000245" rel="noopener" target="_blank">전자신문 (2026-10-27)</a><a href="https://www.mt.co.kr/economy/2026/10/27/2026102711020734856" rel="noopener" target="_blank">머니투데이 (2026-10-27)</a></div>
+  </article>
+  
+  <article id="p3">
+    <img class="cover" src="03.jpg" alt="미래에셋생명 해킹, 보험사 첫 고객정보 유출 확인 표지">
+    <div class="cat">미래에셋생명 해킹, 보험사 첫 고객정보 유출 확인</div>
+    <h2>금감원 안내까지 읽고 정리한 내 정보 지키는 법 3가지</h2>
+    <div class="body"><p>안녕하세요, TODAY IMPACT예요. 보험사 해킹 뒤 내 정보 지키는 법을 정리해 드려요.</p><ol><li><b>내가 대상인지 먼저 확인</b>미래에셋생명은 유출 규모와 항목을 아직 조사 중이에요. 문자 속 링크 말고, 회사 공식 앱이나 홈페이지에 나온 대표번호로 직접 물어보세요. 유출이 확인되면 회사가 개별로 알려야 해요.</li><li><b>내 명의 지키기</b>금감원 개인정보노출자 사고예방시스템(pd.fss.or.kr)에 등록하면 내 이름으로 새 계좌나 카드를 만들 때 본인 확인이 강화돼요. 계좌정보통합관리서비스(www.payinfo.or.kr)에서 모르는 계좌가 없는지도 함께 보세요.</li><li><b>보험 사칭 연락 대응</b>&#x27;보험금이 나왔다&#x27;, &#x27;계약을 확인해야 한다&#x27;며 링크나 앱 설치를 요구하면 무시하세요. 돈이 빠져나간 것 같으면 바로 은행에 지급정지를 요청하고 112나 금감원 1332에 신고하세요. 피해 구제는 개인정보 분쟁조정위원회에도 신청할 수 있어요.</li></ol><p>출처: 한국보험신문 <a href="https://www.insnews.co.kr/news/articleView.html?idxno=93497" rel="noopener" target="_blank">https://www.insnews.co.kr/news/articleView.html?idxno=93497</a></p><p>파이낸셜뉴스 <a href="https://www.fnnews.com/news/202610280631271045" rel="noopener" target="_blank">https://www.fnnews.com/news/202610280631271045</a></p><p>도움이 됐다면 팔로우해 두세요.</p></div>
+    <div class="todo pen">보험사라며 온 문자<br>링크 누르지 말고<br>대표번호로 확인</div>
+    <div class="src">출처 <a href="https://www.insnews.co.kr/news/articleView.html?idxno=93497" rel="noopener" target="_blank">한국보험신문 (2026-10-26)</a><a href="https://view.asiae.co.kr/article/2026102710060722294" rel="noopener" target="_blank">아시아경제 (2026-10-27)</a><a href="https://www.ebn.co.kr/news/articleView.html?idxno=1729219" rel="noopener" target="_blank">EBN (2026-10-27)</a></div>
+  </article>
+  
+  <article id="p10">
+    <img class="cover" src="10.jpg" alt="독감 3주째 줄었지만 초등생은 1000명당 47.8명 표지">
+    <div class="cat">독감 3주째 줄었지만 초등생은 1000명당 47.8명</div>
+    <h2>질병청 자료 읽고 정리한 독감 무료접종 총정리</h2>
+    <div class="body"><p>안녕하세요, TODAY IMPACT예요. 독감 무료접종, 헷갈리는 것만 정리했어요.</p><ol><li><b>누가 무료인가요</b>생후 6개월~14세 어린이, 임신부, 65세 이상 어르신이에요. 지원 기간은 2027년 4월 30일까지예요. 처음 맞는 어린이는 두 번 맞아야 할 수 있으니 접종 기관에서 꼭 물어보세요.</li><li><b>어디서 맞나요</b>질병관리청 예방접종도우미 누리집(nip.kdca.go.kr)에서 가까운 지정 의료기관을 찾을 수 있어요. 가기 전에 전화로 백신이 남았는지 물어보면 헛걸음을 줄여요. 궁금한 점은 질병관리청 콜센터 1339로 문의하세요.</li><li><b>이미 아프다면</b>독감과 코로나19는 증상이 비슷해요. 열이 나면 집에서 버티지 말고 진료를 받고, 아이 등교 시점은 의사와 상담해서 정하세요. 손 씻기와 기침 예절도 기본이에요.</li></ol><p>출처: 세계일보 <a href="https://www.segye.com/newsView/20261027512051" rel="noopener" target="_blank">https://www.segye.com/newsView/20261027512051</a></p><p>국제뉴스 <a href="https://www.gukjenews.com/news/articleView.html?idxno=3733653" rel="noopener" target="_blank">https://www.gukjenews.com/news/articleView.html?idxno=3733653</a></p><p>도움이 됐다면 팔로우해 두세요.</p></div>
+    <div class="todo pen">접종 안 했다면<br>면역까지 2주,<br>이번 주에 예약</div>
+    <div class="src">출처 <a href="https://www.segye.com/newsView/20261027512051" rel="noopener" target="_blank">세계일보 (2026-10-27)</a><a href="https://www.gukjenews.com/news/articleView.html?idxno=3733653" rel="noopener" target="_blank">국제뉴스 (2026-10-27)</a></div>
+  </article>
+  
+
+  <footer>
+    <div class="follow pen">내일 메모도 받아 보려면 <a href="https://www.instagram.com/today_impact/" rel="noopener">@today_impact</a> 팔로우</div>
+    
+    <div class="past">
+      <h3>지난 메모</h3>
+      <ul><li><a href="../2026-10-26/">10월 26일(월) 메모</a></li><li><a href="../2026-10-25/">10월 25일(일) 메모</a></li><li><a href="../2026-10-24/">10월 24일(토) 메모</a></li><li><a href="../2026-10-23/">10월 23일(금) 메모</a></li></ul>
+    </div>
+    
+    <p class="note">본 콘텐츠는 정보 제공 목적이며, 개인 상황에 따라 다를 수 있습니다. 제도·금액은 바뀔 수 있으니 신청 전에 출처 기관에서 한 번 더 확인해 주세요.</p>
+  </footer>
+</div>
+</body>
+</html>
